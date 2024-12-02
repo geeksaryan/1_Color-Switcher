@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; 
+    color: #333;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.main {
+    text-align: center;
+    padding: 20px;
+    background: #fff; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    transition: all 0.3s ease-in-out;
+}
+
+.main:hover {
+    transform: scale(1.02); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.main h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.main h2 {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.main h2 span {
+    font-weight: bold;
+    color: #666;
+}
+
+.button {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 8px; 
+    display: inline-block;
+    border: 2px solid #ddd;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border-color: #bbb;
+}
+
+#pink {
+    background: pink;
+}
+#green{
+    background: #2BFF2B;
+}
+#white {
+    background: white;
+    border: 2px solid #ccc; 
+}
+#blue {
+    background: blue;
+}
+#yellow {
+    background: yellow;
+}
+#purple {
+    background: purple;
+}
+#red {
+    background: red;
+}
+#mixedsky{
+    background: #136a8a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#skyred{
+    background: #40E0D0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#skyblue{
+    background-image: linear-gradient(to left, #4e7fc8, #646abb, #7853a7, #88388d, #910e6c);
+}
+
+@media (max-width: 768px) {
+    .button {
+        width: 60px;
+        height: 60px;
+    }
+
+    .main h1 {
+        font-size: 1.5rem;
+    }
+
+    .main h2 {
+        font-size: 0.9rem;
+    }
+}
+
