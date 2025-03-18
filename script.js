@@ -2,7 +2,7 @@ const buttons=document.querySelectorAll(".button")
 // console.log(buttons);
 const body =document.querySelector("body");
 // console.log(body);
-
+ 
 //accessing all the button
 for(let i=0;i<buttons.length;i++){
     console.log(buttons[i]);
