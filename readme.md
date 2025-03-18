@@ -32,7 +32,11 @@ The project consists of the following files:
 
 ## Screenshots
 
-![Screenshot of the Color Switcher](#) *(Add a screenshot of your project here)*
+
+## Screenshots
+
+![Screenshot of the Color Switcher](assets/Screenshot.png)
+
 
 ## Technologies Used
 
